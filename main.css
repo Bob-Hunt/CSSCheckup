@@ -1,19 +1,15 @@
 .wrapper{
     border: 30px solid green;
-    /* background-image: url("./assets/images/koi-tengue-med.jpg"); */
     background-color: darkgreen;
-    max-width: 100%;
-    justify-items: center;
+    height:100%
 }
 
 .title-wrapper{
     background-image: url("./assets/images/koi-tengue.jpg");
+    position: static;
     margin: 10px;
     border: solid black;
     padding: 10% solid;
-
-    /* align-content: center; */
-    /* align-items: center; */
     text-align: center;
 }
 
@@ -38,13 +34,14 @@
 }
 
 .image-wrapper{
-    background-image: url("./assets/images/shinto-tengue.jpg");
+    background-image: url("./assets/images/shinto-tengue-med.jpg");
     display: flex;
     justify-content: space-evenly;
     border: 2px solid black;
     margin: 15px;
-    height: 220px;
+    height: 400px;
     width: 40%;
+    min-width: 300px;
 }
 
 #img1{
