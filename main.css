@@ -1,0 +1,68 @@
+.wrapper{
+    border: 30px solid green;
+    /* background-image: url("./assets/images/koi-tengue-med.jpg"); */
+    background-color: darkgreen;
+    max-width: 100%;
+    justify-items: center;
+}
+
+.title-wrapper{
+    background-image: url("./assets/images/koi-tengue.jpg");
+    margin: 10px;
+    border: solid black;
+    padding: 10% solid;
+
+    /* align-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+
+.title{
+    /* border: solid blue; */
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: xx-large;
+    font-weight: heavy;
+    margin: 10px;
+    padding: 10px;
+}
+
+.album{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid green;
+    Margin: 10px;
+    padding: 10px
+    
+}
+
+.image-wrapper{
+    background-image: url("./assets/images/shinto-tengue.jpg");
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    margin: 15px;
+    height: 220px;
+    width: 40%;
+}
+
+#img1{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#img2{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#img3{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#img4{
+    max-height: 100%;
+    max-width: 100%;
+}
